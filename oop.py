@@ -29,16 +29,17 @@ class Course:
         self.num_of_students -= num
 
 def main():
-    Hannah = Person('Hannah', 16, 11, 3.9)
-    print(Hannah.__str__())
-    Hannah.get_older()
-    print(Hannah.__str__())
+    if __name__ == "__main__":
+        Hannah = Person('Hannah', 16, 11, 3.9)
+        print(Hannah.__str__())
+        Hannah.get_older()
+        print(Hannah.__str__())
 
-    math = Course('Calculus BC', 'John Smith', 23, 5)
-    print(math.__str__())
-    math.add_students(10)
-    print(math.__str__())
-    math.drop_students(3)
-    print(math.__str__())
+        math = Course('Calculus BC', 'John Smith', 23, 5)
+        print(math.__str__())
+        math.add_students(10)
+        print(math.__str__())
+        math.drop_students(3)
+        print(math.__str__())
 
 main()
