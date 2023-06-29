@@ -29,7 +29,6 @@ class Course:
         self.num_of_students -= num
 
 def main():
-    
     Hannah = Person('Hannah', 16, 11, 3.9)
     print(Hannah.__str__())
     Hannah.get_older()
